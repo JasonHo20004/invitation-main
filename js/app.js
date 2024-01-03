@@ -246,7 +246,7 @@ const progress = (() => {
     const info = document.getElementById('progress-info');
     const bar = document.getElementById('bar');
 
-    let total = assets.length;
+    let total = 9;
     let loaded = 0;
 
     const progress = () => {
